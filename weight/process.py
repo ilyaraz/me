@@ -33,7 +33,7 @@ with open('weight.csv', 'r') as f:
             med = cur_window[window // 2]
             yaxis.append(med)
         if window == 1:
-            color = '#aaaaaa'
+            color = '#999999'
         else:
             color = 'red'
         ax.plot(xaxis, yaxis, color=color, linewidth=1.3)
