@@ -19,12 +19,16 @@ with open('weight.csv', 'r') as f:
         xaxis = []
         yaxis = []
         for i in range(len(data)):
-            if i < window - 1:
+            bad = False
+            cur_window = []
+            for j in range(i - window // 2, i + window // 2 + 1):
+                if j < 0 or j >= len(data):
+                    bad = True
+                    break
+                cur_window.append(data[j][1])
+            if bad:
                 continue
             xaxis.append(data[i][0])
-            cur_window = []
-            for j in range(window):
-                cur_window.append(data[i - j][1])
             cur_window.sort()
             med = cur_window[window // 2]
             yaxis.append(med)
