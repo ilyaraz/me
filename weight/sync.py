@@ -5,5 +5,6 @@ def run(cmd):
         raise Exception('Failed to run: \'{}\''.format(cmd))
 
 run('git add weight.csv')
+run('git add weight.png')
 run('git commit -m "Update weight"')
 run('git push')
