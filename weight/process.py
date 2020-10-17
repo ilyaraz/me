@@ -33,12 +33,10 @@ with open('weight.csv', 'r') as f:
             med = cur_window[window // 2]
             yaxis.append(med)
         if window == 1:
-            alpha = 0.3
-            color = 'gray'
+            color = '#aaaaaa'
         else:
-            alpha = 1.0
             color = 'red'
-        ax.plot(xaxis, yaxis, alpha=alpha, color=color)
+        ax.plot(xaxis, yaxis, color=color, linewidth=1.3)
     ax.grid(True)
     ax.xaxis.set_major_locator(mdates.MonthLocator())
     ax.set_ylim((73, 118))
