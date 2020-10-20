@@ -39,7 +39,7 @@ with open('weight.csv', 'r') as f:
         ax.plot(xaxis, yaxis, color=color, linewidth=1.3)
     ax.grid(True)
     ax.xaxis.set_major_locator(mdates.MonthLocator())
-    ax.set_ylim((72, 118))
+    ax.set_ylim((71, 118))
     plt.xticks(rotation=90)
     plt.subplots_adjust(bottom=0.17)
     plt.savefig('weight.png', dpi=200)
