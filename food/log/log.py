@@ -59,7 +59,7 @@ protein_powder = protein_powder_whey_isolate
 food[dt('2020-10-20')] = [
     (oatmeal, cup(0.75)),
     (egg, ct(4)),
-    (chicken_breast, gr(127)),
+    (chicken_breast, gr(227)),
     (protein_bar, ct(1)),
     (lentils, cup(0.75)),
     (frozen_strawberries, gr(130)),
