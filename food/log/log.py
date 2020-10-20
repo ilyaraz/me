@@ -19,6 +19,9 @@ def tbsp(x):
 def tsp(x):
     return ur.teaspoon * x
 
+def ml(x):
+    return ur.ml * x
+
 def dt(x):
     return datetime.datetime.strptime(x, '%Y-%m-%d')
 
@@ -48,6 +51,7 @@ pb2 = Food('PB2', 60, tbsp(2))
 protein_powder_whey_isolate = Food('protein powder', 140, gr(39))
 xanthan_gum = Food('xanthan gum', 5, tsp(0.5))
 cashew_milk = Food('cashew milk', 25, cup(1))
+sparkling_ice = Food('sparkling ice', 5, ml(500))
 
 food = {}
 
@@ -66,7 +70,9 @@ food[dt('2020-10-20')] = [
     (pb2, tbsp(2)),
     (protein_powder, gr(39)),
     (xanthan_gum, tsp(0.5)),
-    (cashew_milk, cup(0.5))
+    (cashew_milk, cup(0.5)),
+    (sparkling_ice, ml(1000)),
+    (protein_bar, ct(2))
 ]
 
 count_calories(food)
