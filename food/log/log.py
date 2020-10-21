@@ -42,7 +42,7 @@ def count_calories(food):
         print('Total: {}'.format(float(total)))
 
 egg = Food('egg', 80, ct(1))
-bobs_red_mill_old_fashioned_rolled_oats = Food('oatmeal', 180, cup(0.5))
+bobs_red_mill_old_fashioned_rolled_oats = Food('oatmeal', 190, cup(0.5))
 chicken_breast = Food('chicken breast', 165, gr(100))
 kirkland_cookies_cream_protein_bar = Food('protein bar', 180, ct(1))
 green_lentils = Food('green lentils', 145, cup(0.25))
@@ -80,7 +80,14 @@ food[dt('2020-10-20')] = [
     (pop_corn, ct(1)),
     (pelmeni, ct(3)),
     (abes, ct(1)),
-    (abes, ct(1))
+    (abes, ct(1)),
+    (abes, ct(2))
+]
+
+food[dt('2020-10-21')] = [
+    (oatmeal, cup(0.75)),
+    (egg, ct(4)),
+    (pop_corn, ct(1))
 ]
 
 count_calories(food)
