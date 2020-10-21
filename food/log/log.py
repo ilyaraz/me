@@ -72,7 +72,8 @@ food[dt('2020-10-20')] = [
     (xanthan_gum, tsp(0.5)),
     (cashew_milk, cup(0.5)),
     (sparkling_ice, ml(1000)),
-    (protein_bar, ct(2))
+    (protein_bar, ct(2)),
+    (sparkling_ice, ml(1000))
 ]
 
 count_calories(food)
