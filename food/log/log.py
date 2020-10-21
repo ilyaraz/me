@@ -45,6 +45,7 @@ egg = Food('egg', 80, ct(1))
 bobs_red_mill_old_fashioned_rolled_oats = Food('oatmeal', 190, cup(0.5))
 chicken_breast = Food('chicken breast', 165, gr(100))
 kirkland_cookies_cream_protein_bar = Food('protein bar', 180, ct(1))
+pb_protein_bar = Food('protein bar', 190, ct(1))
 green_lentils = Food('green lentils', 145, cup(0.25))
 frozen_strawberries = Food('frozen strawberries', 50, gr(140))
 pb2 = Food('PB2', 60, tbsp(2))
@@ -93,7 +94,8 @@ food[dt('2020-10-21')] = [
     (sparkling_ice, ml(500)),
     (chicken_breast, gr(303)),
     (protein_bar, ct(1)),
-    (sparkling_ice, ml(500))
+    (sparkling_ice, ml(500)),
+    (pb_protein_bar, ct(1))
 ]
 
 count_calories(food)
