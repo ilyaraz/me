@@ -52,6 +52,7 @@ protein_powder_whey_isolate = Food('protein powder', 140, gr(39))
 xanthan_gum = Food('xanthan gum', 5, tsp(0.5))
 cashew_milk = Food('cashew milk', 25, cup(1))
 sparkling_ice = Food('sparkling ice', 5, ml(500))
+pop_corn = Food('pop corn', 400, ct(1))
 
 food = {}
 
@@ -73,7 +74,8 @@ food[dt('2020-10-20')] = [
     (cashew_milk, cup(0.5)),
     (sparkling_ice, ml(1000)),
     (protein_bar, ct(2)),
-    (sparkling_ice, ml(1000))
+    (sparkling_ice, ml(1000)),
+    (pop_corn, ct(1))
 ]
 
 count_calories(food)
