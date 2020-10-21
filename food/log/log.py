@@ -79,6 +79,7 @@ food[dt('2020-10-20')] = [
     (sparkling_ice, ml(1000)),
     (pop_corn, ct(1)),
     (pelmeni, ct(3)),
+    (abes, ct(1)),
     (abes, ct(1))
 ]
 
