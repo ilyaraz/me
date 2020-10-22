@@ -56,6 +56,7 @@ sparkling_ice = Food('sparkling ice', 5, ml(500))
 pop_corn = Food('pop corn', 400, ct(1))
 pelmeni = Food('pelmeni', 150, ct(8))
 abes = Food('abes', 200, ct(2))
+sushi_rice = Food('sushi rice', 170, cup(0.25))
 
 food = {}
 
@@ -107,7 +108,12 @@ food[dt('2020-10-21')] = [
 food[dt('2020-10-22')] = [
     (oatmeal, cup(0.75)),
     (egg, ct(4)),
-    (pb_protein_bar, ct(1))
+    (pb_protein_bar, ct(1)),
+    (pb_protein_bar, ct(1)),
+    (chicken_breast, gr(270)),
+    (sushi_rice, cup(0.75)),
+    (pb_protein_bar, ct(1)),
+    (sparkling_ice, ml(500))
 ]
 
 count_calories(food)
