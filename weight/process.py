@@ -32,6 +32,8 @@ with open('weight.csv', 'r') as f:
             cur_window.sort()
             med = cur_window[window // 2]
             yaxis.append(med)
+            if window == 7:
+                print(data[i][0].date(), med)
         if window == 1:
             color = '#999999'
         else:
