@@ -104,4 +104,10 @@ food[dt('2020-10-21')] = [
     (pop_corn, ct(1))
 ]
 
+food[dt('2020-10-22')] = [
+    (oatmeal, cup(0.75)),
+    (egg, ct(4)),
+    (pb_protein_bar, ct(1))
+]
+
 count_calories(food)
