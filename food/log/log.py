@@ -113,6 +113,7 @@ food[dt('2020-10-22')] = [
     (chicken_breast, gr(270)),
     (sushi_rice, cup(0.75)),
     (pb_protein_bar, ct(1)),
+    (sparkling_ice, ml(500)),
     (sparkling_ice, ml(500))
 ]
 
