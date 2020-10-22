@@ -95,7 +95,13 @@ food[dt('2020-10-21')] = [
     (chicken_breast, gr(303)),
     (protein_bar, ct(1)),
     (sparkling_ice, ml(500)),
-    (pb_protein_bar, ct(1))
+    (pb_protein_bar, ct(1)),
+    (frozen_strawberries, gr(130)),
+    (pb2, tbsp(2)),
+    (protein_powder, gr(39)),
+    (xanthan_gum, tsp(0.5)),
+    (cashew_milk, cup(0.5)),
+    (pop_corn, ct(1))
 ]
 
 count_calories(food)
