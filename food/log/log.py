@@ -58,6 +58,7 @@ pelmeni = Food('pelmeni', 150, ct(8))
 abes = Food('abes', 200, ct(2))
 sushi_rice = Food('sushi rice', 170, cup(0.25))
 ramen = Food('ramen', 410, ct(1))
+egg_whites = Food('egg whites', 25, tbsp(3))
 
 food = {}
 
@@ -125,6 +126,18 @@ food[dt('2020-10-22')] = [
     (ramen, ct(1)),
     (sparkling_ice, ml(500)),
     (sparkling_ice, ml(500))
+]
+
+food[dt('2020-10-23')] = [
+    (oatmeal, cup(0.75)),
+    (egg, ct(4)),
+    (egg_whites, tbsp(6)),
+    (chicken_breast, gr(267)),
+    (frozen_strawberries, gr(260)),
+    (pb2, tbsp(4)),
+    (protein_powder, gr(78)),
+    (xanthan_gum, tsp(1.0)),
+    (cashew_milk, cup(1.0))
 ]
 
 count_calories(food)
