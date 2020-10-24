@@ -1,1 +1,7 @@
-# Metrics of ilyaraz
+# Don't eat
+
+* Gluten
+* Dairy
+* Carbonated drinks
+* Beef
+* Pork
