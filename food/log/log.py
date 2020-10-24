@@ -61,6 +61,8 @@ ramen = Food('ramen', 410, ct(1))
 egg_whites = Food('egg whites', 25, tbsp(3))
 gf_bread = Food('gluten-free bread', 180, ct(2))
 banana = Food('banana', 89, gr(100))
+potatoes = Food('potatoes', 77, gr(100))
+sesame_oil = Food('sesame oil', 120, tbsp(1))
 
 food = {}
 
@@ -157,7 +159,9 @@ food[dt('2020-10-24')] = [
     (gf_bread, ct(1)),
     (pb2, tbsp(2)),
     (banana, gr(105)),
-    (chicken_breast, gr(349))
+    (chicken_breast, gr(349)),
+    (potatoes, gr(578)),
+    (sesame_oil, tbsp(1))
 ]
 
 count_calories(food)
