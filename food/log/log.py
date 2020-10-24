@@ -60,6 +60,7 @@ sushi_rice = Food('sushi rice', 170, cup(0.25))
 ramen = Food('ramen', 410, ct(1))
 egg_whites = Food('egg whites', 25, tbsp(3))
 gf_bread = Food('gluten-free bread', 180, ct(2))
+banana = Food('banana', 89, gr(100))
 
 food = {}
 
@@ -140,7 +141,10 @@ food[dt('2020-10-23')] = [
     (xanthan_gum, tsp(1.0)),
     (cashew_milk, cup(1.0)),
     (pb_protein_bar, ct(1)),
-    (gf_bread, ct(2))
+    (gf_bread, ct(2)),
+    (gf_bread, ct(2)),
+    (pb2, tbsp(4)),
+    (banana, gr(124))
 ]
 
 count_calories(food)
