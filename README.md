@@ -5,3 +5,4 @@
 * Carbonated drinks
 * Beef
 * Pork
+* Sugar alcohols
