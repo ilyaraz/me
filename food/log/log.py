@@ -151,4 +151,12 @@ food[dt('2020-10-23')] = [
     (gf_bread, ct(2))
 ]
 
+food[dt('2020-10-24')] = [
+    (egg, ct(4)),
+    (egg_whites, tbsp(6)),
+    (gf_bread, ct(1)),
+    (pb2, tbsp(2)),
+    (banana, gr(105))
+]
+
 count_calories(food)
