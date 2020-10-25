@@ -171,7 +171,8 @@ food[dt('2020-10-24')] = [
     (protein_powder, gr(78)),
     (xanthan_gum, tsp(1.0)),
     (cashew_milk, cup(1.0)),
-    (banana, gr(106))
+    (banana, gr(106)),
+    (gf_bread, ct(1))
 ]
 
 count_calories(food)
