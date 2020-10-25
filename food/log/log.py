@@ -164,7 +164,13 @@ food[dt('2020-10-24')] = [
     (sesame_oil, tbsp(1)),
     (gf_bread, ct(1)),
     (pb2, tbsp(2)),
-    (banana, gr(120))
+    (banana, gr(120)),
+    (gf_bread, ct(1)),
+    (frozen_strawberries, gr(260)),
+    (pb2, tbsp(4)),
+    (protein_powder, gr(78)),
+    (xanthan_gum, tsp(1.0)),
+    (cashew_milk, cup(1.0))
 ]
 
 count_calories(food)
