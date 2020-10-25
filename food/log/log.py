@@ -41,7 +41,7 @@ def count_calories(food):
             total += calories
         print('Total: {}'.format(float(total)))
 
-egg = Food('egg', 80, ct(1))
+egg = Food('egg', 72, ct(1))
 bobs_red_mill_old_fashioned_rolled_oats = Food('oatmeal', 190, cup(0.5))
 chicken_breast = Food('chicken breast', 165, gr(100))
 kirkland_cookies_cream_protein_bar = Food('protein bar', 180, ct(1))
@@ -173,6 +173,14 @@ food[dt('2020-10-24')] = [
     (cashew_milk, cup(1.0)),
     (banana, gr(106)),
     (gf_bread, ct(1))
+]
+
+food[dt('2020-10-25')] = [
+    (egg, ct(4)),
+    (egg_whites, tbsp(6)),
+    (gf_bread, ct(1)),
+    (pb2, tbsp(2)),
+    (banana, gr(156))
 ]
 
 count_calories(food)
