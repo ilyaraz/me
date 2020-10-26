@@ -186,7 +186,10 @@ food[dt('2020-10-25')] = [
     (potatoes, gr(666)),
     (sesame_oil, tbsp(1)),
     (chicken_breast, gr(240)),
-    (portobello, gr(170))
+    (portobello, gr(170)),
+    (gf_bread, ct(3)),
+    (pb2, tbsp(2)),
+    (banana, gr(153))
 ]
 
 count_calories(food)
