@@ -192,7 +192,14 @@ food[dt('2020-10-25')] = [
     (banana, gr(153))
 ]
 
+gf_bread = Food('gluten-free bread', 80, ct(1))
+
 food[dt('2020-10-26')] = [
+    (egg, ct(4)),
+    (egg_whites, tbsp(6)),
+    (gf_bread, ct(1)),
+    (pb2, tbsp(2)),
+    (banana, gr(150))
 ]
 
 count_calories(food)
