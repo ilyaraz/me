@@ -63,6 +63,7 @@ gf_bread = Food('gluten-free bread', 180, ct(2))
 banana = Food('banana', 89, gr(100))
 potatoes = Food('potatoes', 77, gr(100))
 sesame_oil = Food('sesame oil', 120, tbsp(1))
+portobello = Food('portobellos', 22, gr(100))
 
 food = {}
 
@@ -181,7 +182,11 @@ food[dt('2020-10-25')] = [
     (gf_bread, ct(1)),
     (pb2, tbsp(2)),
     (banana, gr(156)),
-    (Food('eat out', 650, ct(1)), ct(1))
+    (Food('eat out', 650, ct(1)), ct(1)),
+    (potatoes, gr(666)),
+    (sesame_oil, tbsp(1)),
+    (chicken_breast, gr(240)),
+    (portobello, gr(170))
 ]
 
 count_calories(food)
