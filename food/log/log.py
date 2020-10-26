@@ -181,7 +181,7 @@ food[dt('2020-10-25')] = [
     (gf_bread, ct(1)),
     (pb2, tbsp(2)),
     (banana, gr(156)),
-    (Food('eat out', 570, ct(1)), ct(1))
+    (Food('eat out', 650, ct(1)), ct(1))
 ]
 
 count_calories(food)
