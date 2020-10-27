@@ -207,7 +207,15 @@ food[dt('2020-10-26')] = [
     (popcorn, ct(1)),
     (cashew_milk, cup(1.5)),
     (sushi_rice, cup(0.75)),
-    (sesame_oil, tbsp(1))
+    (sesame_oil, tbsp(1)),
+    (Food('eat out', 400, ct(1)), ct(1))
+]
+
+food[dt('2020-10-27')] = [
+    (banana, gr(324)),
+    (pb_protein_powder, ct(1)),
+    (cashew_milk, cup(1.5)),
+    (pb2, tbsp(2))
 ]
 
 count_calories(food)
