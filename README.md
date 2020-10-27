@@ -5,4 +5,6 @@
 * Carbonated drinks
 * Beef
 * Pork
-* Sugar alcohols
+* Sugar alcohols (in large amounts)
+* Garlic
+* Onions
