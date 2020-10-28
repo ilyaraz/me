@@ -229,4 +229,14 @@ food[dt('2020-10-27')] = [
     (pb_protein_powder, ct(1))
 ]
 
+food[dt('2020-10-28')] = [
+    (banana, gr(286)),
+    (pb_protein_powder, ct(1)),
+    (cashew_milk, cup(1)),
+    (pb2, tbsp(2)),
+    (gf_bread, ct(1)),
+    (pb2, tbsp(2)),
+    (banana, gr(136))
+]
+
 count_calories(food)
