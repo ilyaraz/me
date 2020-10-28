@@ -237,7 +237,8 @@ food[dt('2020-10-28')] = [
     (gf_bread, ct(1)),
     (pb2, tbsp(2)),
     (banana, gr(136)),
-    (popcorn, ct(1))
+    (popcorn, ct(1)),
+    (pb_protein_bar, ct(1))
 ]
 
 count_calories(food)
