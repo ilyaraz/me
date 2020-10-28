@@ -224,7 +224,7 @@ food[dt('2020-10-27')] = [
     (sesame_oil, tbsp(1)),
     (pb_protein_powder, ct(2)),
     (popcorn, ct(1)),
-    (pb_protein_bar, ct(1)),
+    (pb_protein_bar, ct(2)),
     (cashew_milk, cup(1.5)),
     (pb_protein_powder, ct(1))
 ]
