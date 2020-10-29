@@ -2,6 +2,7 @@ import csv
 import datetime
 from matplotlib import pyplot as plt
 import matplotlib.dates as mdates
+import numpy as np
 
 
 with open('weight.csv', 'r') as f:
@@ -43,5 +44,6 @@ with open('weight.csv', 'r') as f:
     ax.xaxis.set_major_locator(mdates.MonthLocator())
     ax.set_ylim((71, 118))
     plt.xticks(rotation=90)
+    plt.yticks(np.arange(72, 119, 3))
     plt.subplots_adjust(bottom=0.17)
     plt.savefig('weight.png', dpi=200)
