@@ -37,7 +37,7 @@ delta = (max(dates) - min(dates)).days + 1
 print(delta)
 smoothed_dates = []
 smoothed_calories = []
-for i in range(delta):
+for i in range(3, delta - 3):
     mid_date = min(dates) + datetime.timedelta(i)
     total_calories = 0.0
     for j in range(len(dates)):
