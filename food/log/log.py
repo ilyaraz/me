@@ -251,4 +251,7 @@ food[dt('2020-10-28')] = [
     (ribeye_steak, lb(0.5))
 ]
 
+food[dt('2020-10-29')] = [
+]
+
 count_calories(food)
