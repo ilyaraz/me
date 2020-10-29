@@ -22,6 +22,9 @@ def tsp(x):
 def ml(x):
     return ur.ml * x
 
+def lb(x):
+    return ur.lb * x
+
 def dt(x):
     return datetime.datetime.strptime(x, '%Y-%m-%d')
 
@@ -229,6 +232,8 @@ food[dt('2020-10-27')] = [
     (pb_protein_powder, ct(1))
 ]
 
+ribeye_steak = Food('ribeye steak', 1320, lb(1))
+
 food[dt('2020-10-28')] = [
     (banana, gr(286)),
     (pb_protein_powder, ct(1)),
@@ -240,7 +245,10 @@ food[dt('2020-10-28')] = [
     (popcorn, ct(1)),
     (pb_protein_bar, ct(1)),
     (sushi_rice, cup(0.75)),
-    (sesame_oil, tbsp(1))
+    (sesame_oil, tbsp(1)),
+    (Food('plane snacks', 200, ct(1)), ct(1)),
+    (protein_bar, ct(1)),
+    (ribeye_steak, lb(0.5))
 ]
 
 count_calories(food)
