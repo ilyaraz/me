@@ -4,7 +4,7 @@
 
 ![Weight over time](weight/weight.png)
 
-## Exercise
+## Cardio
 
 ![Exercise over time](exercise/exercise_calories.png)
 
