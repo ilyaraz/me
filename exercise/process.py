@@ -24,6 +24,11 @@ for (_, _, files) in os.walk(strava_files_folder):
 aggregate = defaultdict(float)
 for (u, v) in data:
     aggregate[u] += v
+total_calories = 0.0
+for u in aggregate.keys():
+    if u.year == 2020 and u.month == 10:
+        total_calories += aggregate[u]
+print(total_calories)
 dates = []
 calories = []
 for key in sorted(aggregate.keys()):
