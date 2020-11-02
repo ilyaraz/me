@@ -253,12 +253,18 @@ food[dt('2020-10-28')] = [
 
 avocado = Food('avocado', 160, gr(100))
 bacon = Food('bacon', 90, ct(2))
+tj_marinated_thighs = Food('TJ marinated thighs', 140, gr(112))
+walnuts = Food('walnuts', 200, gr(30))
 
 food[dt('2020-11-02')] = [
     (egg, ct(4)),
     (egg_whites, tbsp(6)),
     (bacon, ct(3)),
-    (avocado, gr(68))
+    (avocado, gr(68)),
+    (tj_marinated_thighs, gr(425)),
+    (pb_protein_powder, ct(2)),
+    (cashew_milk, cup(2.5)),
+    (walnuts, gr(30))
 ]
 
 count_calories(food)
