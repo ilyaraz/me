@@ -251,7 +251,14 @@ food[dt('2020-10-28')] = [
     (ribeye_steak, lb(0.5))
 ]
 
-food[dt('2020-10-29')] = [
+avocado = Food('avocado', 160, gr(100))
+bacon = Food('bacon', 90, ct(2))
+
+food[dt('2020-11-02')] = [
+    (egg, ct(4)),
+    (egg_whites, tbsp(6)),
+    (bacon, ct(3)),
+    (avocado, gr(68))
 ]
 
 count_calories(food)
