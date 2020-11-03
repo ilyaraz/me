@@ -280,7 +280,12 @@ food[dt('2020-11-03')] = [
     (bacon, ct(4)),
     (pb_protein_powder, ct(1)),
     (cashew_milk, cup(1.5)),
-    (protein_bar, ct(1))
+    (protein_bar, ct(1)),
+    (frozen_strawberries, gr(260)),
+    (pb2, tbsp(4)),
+    (pb_protein_powder, ct(2)),
+    (xanthan_gum, tsp(1)),
+    (cashew_milk, cup(1))
 ]
 
 count_calories(food)
