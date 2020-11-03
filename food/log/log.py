@@ -275,6 +275,8 @@ food[dt('2020-11-02')] = [
     (pb_protein_bar, ct(2))
 ]
 
+tj_marinated_breasts = Food('TJ marinated breasts', 130, gr(112))
+
 food[dt('2020-11-03')] = [
     (egg, ct(4)),
     (bacon, ct(4)),
@@ -285,7 +287,8 @@ food[dt('2020-11-03')] = [
     (pb2, tbsp(4)),
     (pb_protein_powder, ct(2)),
     (xanthan_gum, tsp(1)),
-    (cashew_milk, cup(1))
+    (cashew_milk, cup(1)),
+    (tj_marinated_breasts, gr(431))
 ]
 
 count_calories(food)
