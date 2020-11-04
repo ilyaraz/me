@@ -292,7 +292,8 @@ food[dt('2020-11-03')] = [
     (protein_bar, ct(2)),
     (avocado, gr(177)),
     (protein_bar, ct(1)),
-    (walnuts, gr(30))
+    (walnuts, gr(30)),
+    (bacon, ct(3))
 ]
 
 count_calories(food)
