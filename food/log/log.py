@@ -289,7 +289,10 @@ food[dt('2020-11-03')] = [
     (xanthan_gum, tsp(1)),
     (cashew_milk, cup(1)),
     (tj_marinated_breasts, gr(431)),
-    (protein_bar, ct(2))
+    (protein_bar, ct(2)),
+    (avocado, gr(177)),
+    (protein_bar, ct(1)),
+    (walnuts, gr(30))
 ]
 
 count_calories(food)
