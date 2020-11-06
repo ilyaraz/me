@@ -332,6 +332,8 @@ food[dt('2020-11-06')] = [
     (avocado, gr(143)),
     (tj_marinated_breasts, gr(396)),
     (cream_cheese, gr(115)),
+    (peanut_butter, cup(0.25)),
+    (cream_cheese, gr(115)),
     (peanut_butter, cup(0.25))
 ]
 
