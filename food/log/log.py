@@ -312,6 +312,8 @@ food[dt('2020-11-04')] = [
     (protein_bar, ct(1))
 ]
 
+bacon = Food('bacon', 50, ct(2))
+
 food[dt('2020-11-05')] = [
     (egg, ct(4)),
     (bacon, ct(4)),
