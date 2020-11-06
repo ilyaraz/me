@@ -324,4 +324,10 @@ food[dt('2020-11-05')] = [
     (peanut_butter, cup(0.25))
 ]
 
+food[dt('2020-11-06')] = [
+    (egg, ct(4)),
+    (bacon, ct(6)),
+    (avocado, gr(143))
+]
+
 count_calories(food)
