@@ -349,6 +349,8 @@ food[dt('2020-11-07')] = [
     (avocado, gr(123)),
     (protein_bar, ct(1)),
     (tj_marinated_breasts, gr(425)),
+    (cream_cheese, gr(115)),
+    (peanut_butter, cup(0.25)),
 ]
 
 count_calories(food)
