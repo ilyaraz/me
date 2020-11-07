@@ -326,6 +326,8 @@ food[dt('2020-11-05')] = [
     (peanut_butter, cup(0.25))
 ]
 
+salami = Food('salami', 600, gr(170))
+
 food[dt('2020-11-06')] = [
     (egg, ct(4)),
     (bacon, ct(6)),
@@ -335,7 +337,8 @@ food[dt('2020-11-06')] = [
     (peanut_butter, cup(0.25)),
     (cream_cheese, gr(115)),
     (peanut_butter, cup(0.25)),
-    (protein_bar, ct(1))
+    (protein_bar, ct(1)),
+    (salami, gr(170))
 ]
 
 count_calories(food)
