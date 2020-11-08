@@ -360,4 +360,11 @@ food[dt('2020-11-07')] = [
     (protein_bar, ct(1)),
 ]
 
+butter = Food('butter', 100, tbsp(1))
+
+food[dt('2020-11-08')] = [
+    (heavy_cream, tbsp(2)),
+    (butter, tbsp(1))
+]
+
 count_calories(food)
