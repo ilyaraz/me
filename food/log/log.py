@@ -371,6 +371,8 @@ food[dt('2020-11-08')] = [
     (sesame_oil, tbsp(1)),
     (medium_cheddar, gr(89)),
     (heavy_cream, tbsp(2)),
+    (cream_cheese, gr(115)),
+    (peanut_butter, cup(0.25)),
 ]
 
 count_calories(food)
