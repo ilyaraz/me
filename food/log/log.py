@@ -361,10 +361,16 @@ food[dt('2020-11-07')] = [
 ]
 
 butter = Food('butter', 100, tbsp(1))
+medium_cheddar = Food('medium sharp cheddar', 120, gr(30))
 
 food[dt('2020-11-08')] = [
     (heavy_cream, tbsp(2)),
-    (butter, tbsp(1))
+    (butter, tbsp(1)),
+    (tj_marinated_breasts, gr(506)),
+    (avocado, gr(123)),
+    (sesame_oil, tbsp(1)),
+    (medium_cheddar, gr(89)),
+    (heavy_cream, tbsp(2)),
 ]
 
 count_calories(food)
