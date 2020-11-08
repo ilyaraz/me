@@ -343,6 +343,8 @@ food[dt('2020-11-06')] = [
     (cashew_milk, cup(1.5))
 ]
 
+heavy_cream = Food('heavy cream', 50, tbsp(1))
+
 food[dt('2020-11-07')] = [
     (egg, ct(4)),
     (bacon, ct(6)),
@@ -354,6 +356,8 @@ food[dt('2020-11-07')] = [
     (cream_cheese, gr(97)),
     (peanut_butter, cup(0.25)),
     (Food('eat out', 500, ct(1)), ct(1)),
+    (heavy_cream, tbsp(2)),
+    (protein_bar, ct(1)),
 ]
 
 count_calories(food)
