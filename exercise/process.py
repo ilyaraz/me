@@ -34,6 +34,7 @@ calories = []
 for key in sorted(aggregate.keys()):
     dates.append(key)
     calories.append(aggregate[key])
+    print(key, aggregate[key])
 fig, ax = plt.subplots()
 ax.vlines(dates, 0, calories, color='#999999')
 print(min(dates))
