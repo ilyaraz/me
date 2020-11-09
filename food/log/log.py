@@ -362,6 +362,7 @@ food[dt('2020-11-07')] = [
 
 butter = Food('butter', 100, tbsp(1))
 medium_cheddar = Food('medium sharp cheddar', 120, gr(30))
+brie = Food('brie', 110, gr(28))
 
 food[dt('2020-11-08')] = [
     (heavy_cream, tbsp(2)),
@@ -375,6 +376,8 @@ food[dt('2020-11-08')] = [
     (peanut_butter, cup(0.25)),
     (medium_cheddar, gr(50)),
     (protein_bar, ct(1)),
+    (brie, gr(36)),
+    (brie, gr(28)),
 ]
 
 count_calories(food)
