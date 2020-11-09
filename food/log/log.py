@@ -380,4 +380,14 @@ food[dt('2020-11-08')] = [
     (brie, gr(28)),
 ]
 
+bacon = Food('bacon', 60, ct(2))
+
+food[dt('2020-11-09')] = [
+    (heavy_cream, tbsp(2)),
+    (avocado, gr(137)),
+    (brie, gr(65)),
+    (bacon, ct(6)),
+    (egg, ct(4))
+]
+
 count_calories(food)
