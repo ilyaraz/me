@@ -393,6 +393,7 @@ food[dt('2020-11-09')] = [
     (peanut_butter, cup(0.25)),
     (brie, gr(83)),
     (medium_cheddar, gr(127)),
+    (protein_bar, ct(1)),
 ]
 
 count_calories(food)
