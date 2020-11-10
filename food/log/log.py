@@ -389,6 +389,8 @@ food[dt('2020-11-09')] = [
     (bacon, ct(6)),
     (egg, ct(4)),
     (tj_marinated_breasts, gr(425)),
+    (cream_cheese, gr(115)),
+    (peanut_butter, cup(0.25)),
 ]
 
 count_calories(food)
