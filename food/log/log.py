@@ -406,6 +406,9 @@ food[dt('2020-11-10')] = [
     (cream_cheese, gr(115)),
     (peanut_butter, cup(0.25)),
     (protein_bar, ct(1)),
+    (avocado, gr(120)),
+    (Food('salami', 190, ct(8)), ct(4)),
+    (walnuts, gr(30)),
 ]
 
 count_calories(food)
