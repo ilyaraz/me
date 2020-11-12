@@ -427,7 +427,13 @@ food[dt('2020-11-11')] = [
     (peanut_butter, cup(0.25)),
     (heavy_cream, tbsp(2)),
     (cheese, gr(220)),
-    (pb_protein_bar, ct(1)),
+    (pb_protein_bar, ct(2)),
+]
+
+food[dt('2020-12-11')] = [
+    (bacon, ct(4)),
+    (egg, ct(4)),
+    (avocado, gr(150)),
 ]
 
 count_calories(food)
