@@ -413,6 +413,7 @@ food[dt('2020-11-10')] = [
 ]
 
 bacon = Food('bacon', 80, ct(2))
+cheese = Food('cheese', 110, gr(28))
 
 food[dt('2020-11-11')] = [
     (bacon, ct(4)),
@@ -425,6 +426,8 @@ food[dt('2020-11-11')] = [
     (cream_cheese, gr(115)),
     (peanut_butter, cup(0.25)),
     (heavy_cream, tbsp(2)),
+    (cheese, gr(220)),
+    (pb_protein_bar, ct(1)),
 ]
 
 count_calories(food)
