@@ -419,6 +419,7 @@ food[dt('2020-11-11')] = [
     (egg, ct(3)),
     (butter, tbsp(2.25)),
     (heavy_cream, tbsp(2)),
+    (heavy_cream, tbsp(2)),
 ]
 
 count_calories(food)
