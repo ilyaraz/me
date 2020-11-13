@@ -443,4 +443,12 @@ food[dt('2020-12-11')] = [
     (pb_protein_bar, ct(2)),
 ]
 
+food[dt('2020-12-12')] = [
+    (bacon, ct(4)),
+    (avocado, gr(147)),
+    (tj_marinated_breasts, gr(475)),
+    (cream_cheese, gr(115)),
+    (peanut_butter, cup(0.25)),
+]
+
 count_calories(food)
