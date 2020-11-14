@@ -430,7 +430,7 @@ food[dt('2020-11-11')] = [
     (pb_protein_bar, ct(2)),
 ]
 
-food[dt('2020-12-11')] = [
+food[dt('2020-11-12')] = [
     (bacon, ct(4)),
     (egg, ct(4)),
     (avocado, gr(150)),
@@ -443,7 +443,7 @@ food[dt('2020-12-11')] = [
     (pb_protein_bar, ct(2)),
 ]
 
-food[dt('2020-12-12')] = [
+food[dt('2020-11-13')] = [
     (bacon, ct(4)),
     (avocado, gr(147)),
     (tj_marinated_breasts, gr(475)),
@@ -453,6 +453,12 @@ food[dt('2020-12-12')] = [
     (peanut_butter, cup(0.25)),
     (walnuts, gr(30)),
     (bacon, ct(4)),
+]
+
+food[dt('2020-11-14')] = [
+    (bacon, ct(6)),
+    (avocado, gr(147)),
+    (egg, ct(4)),
 ]
 
 count_calories(food)
