@@ -467,11 +467,23 @@ food[dt('2020-11-14')] = [
     (bacon, ct(1)),
 ]
 
+apple = Food('apple', 52, gr(100))
+casein_powder = Food('casein powder', 120, ct(1))
+
 food[dt('2020-11-15')] = [
     (banana, gr(131)),
     (bacon, ct(6)),
     (avocado, gr(123)),
     (egg, ct(4)),
+    (apple, gr(272)),
+    (tj_marinated_breasts, gr(399)),
+    (casein_powder, ct(1)),
+    (cashew_milk, cup(1.5)),
+    (frozen_strawberries, gr(260)),
+    (pb2, tbsp(4)),
+    (protein_powder, gr(78)),
+    (xanthan_gum, tsp(1.0)),
+    (cashew_milk, cup(1.0)),
 ]
 
 count_calories(food)
