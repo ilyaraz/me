@@ -494,6 +494,10 @@ food[dt('2020-11-15')] = [
 
 food[dt('2020-11-16')] = [
     (tj_marinated_breasts, gr(503)),
+    (apple, gr(202)),
+    (banana, gr(133)),
+    (pb2, tbsp(2)),
+    (gf_bread, ct(1)),
 ]
 
 count_calories(food)
