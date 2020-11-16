@@ -469,6 +469,7 @@ food[dt('2020-11-14')] = [
 
 apple = Food('apple', 52, gr(100))
 casein_powder = Food('casein powder', 120, ct(1))
+popcorn = Food('pop corn', 400, ct(1))
 
 food[dt('2020-11-15')] = [
     (banana, gr(131)),
@@ -484,6 +485,10 @@ food[dt('2020-11-15')] = [
     (protein_powder, gr(78)),
     (xanthan_gum, tsp(1.0)),
     (cashew_milk, cup(1.0)),
+    (popcorn, ct(1)),
+    (pb2, tbsp(2)),
+    (gf_bread, ct(1)),
+    (banana, gr(70)),
 ]
 
 count_calories(food)
