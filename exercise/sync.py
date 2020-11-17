@@ -7,5 +7,6 @@ def run(cmd):
 run('git add garmin')
 run('git add wahoo')
 run('git add exercise_calories.png')
+run('git add pullups.csv')
 run('git commit -m "Update exercise"')
 run('git push')
