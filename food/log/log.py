@@ -521,6 +521,7 @@ food[dt('2020-11-17')] = [
     (casein_powder, ct(1)),
     (cashew_milk, cup(1.5)),
     (banana, gr(111)),
+    (ribeye_steak, lb(1)),
 ]
 
 count_calories(food)
