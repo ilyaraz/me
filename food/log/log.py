@@ -518,6 +518,9 @@ food[dt('2020-11-17')] = [
     (banana, gr(123)),
     (tj_marinated_breasts, gr(430)),
     (pb_protein_bar, ct(1)),
+    (casein_powder, ct(1)),
+    (cashew_milk, cup(1.5)),
+    (banana, gr(111)),
 ]
 
 count_calories(food)
