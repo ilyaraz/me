@@ -492,6 +492,8 @@ food[dt('2020-11-15')] = [
     (banana, gr(68)),
 ]
 
+chocolate = Food('chocolate', 60, ct(1))
+
 food[dt('2020-11-16')] = [
     (tj_marinated_breasts, gr(503)),
     (apple, gr(202)),
@@ -503,6 +505,11 @@ food[dt('2020-11-16')] = [
     (protein_powder, gr(78)),
     (xanthan_gum, tsp(1.0)),
     (cashew_milk, cup(1.0)),
+    (casein_powder, ct(2)),
+    (cashew_milk, cup(3)),
+    (bacon, ct(6)),
+    (egg, ct(4)),
+    (chocolate, ct(1)),
 ]
 
 count_calories(food)
