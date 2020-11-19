@@ -549,6 +549,7 @@ food[dt('2020-11-19')] = [
     (casein_powder, ct(1)),
     (cashew_milk, cup(1.5)),
     (tj_marinated_breasts, gr(510)),
+    (pb_protein_bar, ct(2)),
 ]
 
 count_calories(food)
