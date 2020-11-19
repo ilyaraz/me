@@ -544,4 +544,8 @@ food[dt('2020-11-18')] = [
     (cashew_milk, cup(3)),
 ]
 
+food[dt('2020-11-19')] = [
+    (banana, gr(125)),
+]
+
 count_calories(food)
