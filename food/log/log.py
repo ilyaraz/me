@@ -550,6 +550,7 @@ food[dt('2020-11-19')] = [
     (cashew_milk, cup(1.5)),
     (tj_marinated_breasts, gr(510)),
     (pb_protein_bar, ct(2)),
+    (pb_protein_bar, ct(1)),
 ]
 
 count_calories(food)
