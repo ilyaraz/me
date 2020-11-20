@@ -551,6 +551,11 @@ food[dt('2020-11-19')] = [
     (tj_marinated_breasts, gr(510)),
     (pb_protein_bar, ct(2)),
     (pb_protein_bar, ct(1)),
+    (cream_cheese, gr(115)),
+    (peanut_butter, cup(0.25)),
+    (popcorn, ct(1)),
+    (pb_protein_bar, ct(1)),
+    (apple, gr(200)),
 ]
 
 count_calories(food)
