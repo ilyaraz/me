@@ -563,6 +563,11 @@ food[dt('2020-11-20')] = [
     (egg, ct(4)),
     (bacon, ct(6)),
     (butter, tbsp(2)),
+    (frozen_strawberries, gr(260)),
+    (pb2, tbsp(4)),
+    (protein_powder, gr(78)),
+    (xanthan_gum, tsp(1.0)),
+    (cashew_milk, cup(1.0)),
 ]
 
 count_calories(food)
