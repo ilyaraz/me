@@ -575,6 +575,12 @@ food[dt('2020-11-20')] = [
 
 food[dt('2020-11-21')] = [
     (banana, gr(123)),
+    (casein_powder, ct(1)),
+    (cashew_milk, cup(1.5)),
+    (avocado, gr(140)),
+    (egg, ct(4)),
+    (bacon, ct(6)),
+    (butter, tbsp(2)),
 ]
 
 count_calories(food)
