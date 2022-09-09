@@ -2,6 +2,7 @@ import requests
 import json
 import os
 import pickle
+import time
 
 url1 = 'http://www.strava.com/oauth/authorize?client_id=55349&response_type=code&redirect_uri=http://localhost/exchange_token&approval_prompt=force&scope=read_all,activity:read_all'
 print('Paste {}'.format(url1)) 
@@ -15,6 +16,7 @@ page = 1
 while True:
     response = requests.get('https://www.strava.com/api/v3/athlete/activities?page={}'.format(page), headers={'Authorization': 'Bearer {}'.format(token)})
     activities = response.json()
+    time.sleep(9)
     if len(activities) == 0:
         break
     with open('data/summary_{}.json'.format(page), 'w') as summary_file:
@@ -28,6 +30,7 @@ while True:
             print('New: {}'.format(str_id))
         response = requests.get('https://www.strava.com/api/v3/activities/{}'.format(str_id), headers={'Authorization': 'Bearer {}'.format(token)})
         activity = response.json()
+        time.sleep(9)
         with open(file_name, 'w') as activity_file:
             activity_file.write('{}\n'.format(json.dumps(activity)))
     page += 1
